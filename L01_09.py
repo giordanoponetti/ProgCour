@@ -1,6 +1,5 @@
-# enter input
+# enter input and compute the result
 import PySimpleGUI as sg
 
 text = sg.PopupGetText('enter a command: ')
-print(text)
-print(eval(text))
+print(text, '=', eval(text))
